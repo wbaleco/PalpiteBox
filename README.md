@@ -1,4 +1,4 @@
-# TulioFaria.dev (resume)
+
 
 [![HitCount](https://hits.dwyl.com/wbaleco/wbaleco/PalpiteBox)](https://hits.dwyl.com/wbaleco/wbaleco/PalpiteBox)
 
