@@ -1,6 +1,6 @@
 
 
-[![HitCount](https://hits.dwyl.com/wbaleco/wbaleco/PalpiteBox)](https://hits.dwyl.com/wbaleco/wbaleco/PalpiteBox)
+[![HitCount](https://hits.dwyl.com/tuliofaria/tuliofaria/tuliofariadev.svg)](https://hits.dwyl.com/tuliofaria/tuliofaria/tuliofariadev)
 
 # PalpiteBox
 
