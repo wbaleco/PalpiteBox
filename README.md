@@ -1,33 +1,53 @@
 # PalpiteBox
 
-Introdução: 
+## *Instruções e objetivos* 
 
 Criar um projeto para uma pesquisa online sobre estabelecimentos comerciais com as tecnologias NextJS, React e Tailwind. 
 Usuário acessa o aplicativo faz sua crítica ou sugestão e ainda ganha por isso.
-Início do projeto
-Crie uma pasta para o projeto
-Abra esta pasta no terminal e execute o seguinte comando: npm init -y
-Instale o next, react e react-dom executando o seguinte comando: npm install next react react-dom
 
-Configuração no arquivo package.json
+### Pré-requisitos:
+
+Você precisa do NodeJS e do NPM instalado em sua máquina.
+
+```
+npm install
+npm run dev
+```
+
+## Layout:
+
+Criamos o layout utilizando o Figma. Você pode encontrar o arquivo [aqui](https://www.figma.com/file/9bUM0ZS9hzXS9eh9VMXEbc/resume?node-id=0%3A1).
+
+### Início do projeto
+    Crie uma pasta para o projeto
+    Abra esta pasta no terminal e execute o seguinte comando: npm init -y
+    Instale o next, react e react-dom executando o seguinte comando: npm install next react react-dom
+
+### Configuração no arquivo package.json
+```
 "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
   }
+  ```
 
-Criar pasta com o nome pages
-dentro de pages crie um arquivo chamado index.js e adicione o seguinte código: 
+### Criar pasta com o nome pages
+    dentro de pages crie um arquivo chamado index.js e adicione o seguinte código: 
+```
 function HomePage() {
   return <div>Welcome to Next.js!</div>
 }
 
 export default HomePage
+```
 
-Execute o projeto 
+### Execute o projeto 
+```
 npm run dev
-Abra seu navegador e digite: http://localhost:3000
-A primeira página será apresentada
+```
+    Abra seu navegador e digite: http://localhost:3000
+    A primeira página será apresentada
 
 Adicionando novas rotas
 Crie uma nova página chamada sobre.js dentro da pasta pages
