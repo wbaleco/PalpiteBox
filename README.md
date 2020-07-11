@@ -62,8 +62,8 @@ npm run dev
         Na página index.js adicione o seguinte trecho de código:
 	```
         <Link href="/sobre"> //página de destino
-        <a>Sobre</a> //Texto que ficará visivel
-         </Link>
+        	<a>Sobre</a> //Texto que ficará visivel
+        </Link>
 	```
 ### Ao clicar no link será direcionado para a página sobre.js
 
