@@ -57,12 +57,15 @@ npm run dev
    
         Crie uma nova página chamada sobre.js dentro da pasta pages
         Na página index.js adicione o seguinte import:
-        import Link from 'next/link'
+	
+        ### import Link from 'next/link'
         Na página index.js adicione o seguinte trecho de código:
+	
         <Link href="/sobre"> //página de destino
         <a>Sobre</a> //Texto que ficará visivel
          </Link>
-        Ao clicar no link será direcionado para a página sobre.js
+	 
+        ### Ao clicar no link será direcionado para a página sobre.js
 
 
 ## Para melhorar o visual de nossas páginas precisamos adicionar um estilo css e um ótimo framework para isso é o Tailwindcss.
