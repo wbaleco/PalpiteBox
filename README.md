@@ -97,7 +97,8 @@ Crie um arquivo postcss.config.js na raiz do projeto e adicione o seguinte códi
 ```
 module.exports = {
     plugins: [
-        'postcss-import',  'tailwindcss',
+        'postcss-import',  
+	'tailwindcss',
         'autoprefixer'
     ]
 }
