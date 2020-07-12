@@ -60,6 +60,9 @@ npm run dev
 	
 ### import Link from 'next/link'
         Na página index.js adicione o seguinte trecho de código:
+	
+	```
+	import Link from 'next/link'
 	```
         <Link href="/sobre"> //página de destino
         	<a>Sobre</a> //Texto que ficará visivel
