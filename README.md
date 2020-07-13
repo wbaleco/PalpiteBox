@@ -115,13 +115,20 @@ module.exports = {
 	* Adicione o seguinte código
 	```
 	import React from 'react'
+	import '../css/style.css'
 
 
-	const MyApp = () => {
-	    return <h1>MyAPP</h1>
+	const MyApp = ({ Component, pageProps}) => {
+	    return (
+		<div>
+		    <h1>MyAPP</h1>
+		    <Component {...pageProps}/>
+		</div>
+
+	    ) 
 	}
 
 
-	export default MyApp	
+	export default MyApp
 	```
 	
