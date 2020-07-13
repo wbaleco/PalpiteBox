@@ -109,3 +109,19 @@ module.exports = {
     ]
 }
 ```
+## Criar o arquivo _app.js para ser a página padrão para todas as outras 
+	
+	* Dentro da pasta pages crie um arquivo chamado _app.js
+	* Adicione o seguinte código
+	```
+	import React from 'react'
+
+
+	const MyApp = () => {
+	    return <h1>MyAPP</h1>
+	}
+
+
+	export default MyApp	
+	```
+	
